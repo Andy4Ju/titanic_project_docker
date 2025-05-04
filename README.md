@@ -15,11 +15,12 @@
 
 ## 🚀 啟動方式
 
-bash
+```bash
 git clone https://github.com/Andy4Ju/titanic_project_docker
 cd titanic_project_docker
 cp .env.example .env
 docker_compose up --build
+```
 
 ## ✅ 專案結構簡介
 
