@@ -15,18 +15,15 @@
 
 ## 🚀 啟動方式
 
-```bash
+bash
 git clone https://github.com/Andy4Ju/titanic_project_docker
 cd titanic_project_docker
 cp .env.example .env
 docker_compose up --build
 
+## ✅ 專案結構簡介
 
-### ✅ 專案結構簡介
-
-## 📁 專案結構
-
-| 目錄           | 用途 |
+|目錄 | 用途 |
 |---------------|------|
 | init/         | 初始 SQL 建表檔 |
 | csv/          | Titanic 資料來源 |
