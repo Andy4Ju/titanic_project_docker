@@ -1,6 +1,6 @@
 # 🚢 Titanic Dockerized Project
 
-本專案使用 Docker Compose 建立以下多容器架構：
+本專案使用 Docker Compose 建立一個可協作的多容器環境，處理 Titanic 數據匯入、儲存與網頁呈現，建立以下三個容器：
 
 1. MySQL 資料庫容器
 2. Python 應用程式容器（匯入 titanic.csv）
@@ -19,12 +19,11 @@
 git clone https://github.com/your-org/titanic_project.git
 cd titanic_project
 cp .env.example .env
-docker-compose up --build
+docker_compose up --build
 
 
 ### ✅ 專案結構簡介
 
-```markdown
 ## 📁 專案結構
 
 | 目錄          | 用途 |
