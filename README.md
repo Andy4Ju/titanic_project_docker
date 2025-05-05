@@ -19,7 +19,7 @@
 git clone https://github.com/Andy4Ju/titanic_project_docker
 cd titanic_project_docker
 cp .env.example .env
-docker_compose up -d --build # 在背景執行
+docker compose up -d --build # 在背景執行
 ```
 
 ## ✅ 專案結構簡介
