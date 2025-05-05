@@ -28,5 +28,5 @@ docker compose up -d --build # 在背景執行
 |---------------|------|
 | init/         | 初始 SQL 建表檔 |
 | csv/          | Titanic 資料來源 |
-| python-app/   | 匯入程式與 Dockerfile |
+| python_app/   | 匯入程式與 Dockerfile |
 | web/          | Flask 顯示資料介面 |
