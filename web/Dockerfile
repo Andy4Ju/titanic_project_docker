@@ -5,10 +5,13 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # 複製應用程式進入容器
-COPY show_data.py .
+COPY . .
 
 # 安裝基本 Web 顯示與資料查詢所需套件
-RUN pip install --no-cache-dir flask pandas pymysql
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 開放 Flask 對外連線 port
+EXPOSE 5000
 
 # 預設執行 Web 應用程式
 CMD ["python", "show_data.py"]
