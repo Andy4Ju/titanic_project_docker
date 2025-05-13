@@ -30,3 +30,7 @@ docker compose up -d --build # 在背景執行
 | csv/          | Titanic 資料來源 |
 | python_app/   | 匯入程式與 Dockerfile |
 | web/          | Flask 顯示資料介面 |
+
+## .gitignore
+
+.env
