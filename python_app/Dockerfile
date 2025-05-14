@@ -9,7 +9,7 @@ COPY import_data.py .
 
 # 安裝需要的套件（可由協作者自行補充）
 # 這裡列出常見的匯入用套件 pandas + pymysql
-RUN pip install --no-cache-dir pandas pymysql
+RUN pip install --no-cache-dir pandas pymysql sqlalchemy
 
 # 預設啟動程式
 CMD ["python", "import_data.py"]
