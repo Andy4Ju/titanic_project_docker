@@ -13,7 +13,7 @@ services:
       - ./db:/var/lib/mysql
       - ./init:/docker-entrypoint-initdb.d
 
-  python-app:
+  python_app:
     build: ./python_app
     container_name: titanic_python
     depends_on:
